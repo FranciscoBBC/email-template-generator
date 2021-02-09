@@ -6,7 +6,7 @@ class MailMarkettingController {
     try {
       return res.send({ response: true });
     } catch (error) {
-      console.log('server error', error);
+      console.log('error', error);
       return false;
     }
   }
